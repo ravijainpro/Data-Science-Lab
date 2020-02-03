@@ -1,0 +1,6 @@
+Emp1,Dep1,25000,Manager,
+Emp2,Dep2,30000,Manager,
+Emp3,Dep1,20000,Clerk,Emp1
+Emp4,Dep1,10000,Clerk,Emp1
+Emp5,Dep1,5000,Sub-Clerk,Emp3
+Emp6,Dep2,3000,Clerk,Emp2

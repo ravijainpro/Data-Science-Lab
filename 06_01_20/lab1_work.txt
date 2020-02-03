@@ -1,0 +1,5 @@
+Use pandas for them:-
+1>Time table creation and trasnformations (3 cols file)
+2>Emp table is there, print the dept wise top 3 emps. according to salary.
+3> print manager and their sub-employees recusively...
+4>table with x and y cols given; one col value is related to 2nd col val, print the relation of relation and find cycles.
