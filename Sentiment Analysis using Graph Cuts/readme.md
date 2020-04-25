@@ -34,7 +34,7 @@ The python code along with output can be accessed @ https://colab.research.googl
 
 NOTE:
 ( The accuracy can be easily boosted to 80%-90% by doing a small tweak:
-1. Send all the sentences of the review instead of just sending just only first 6).
+1. Send all the sentences of the review instead of just sending the first 6 of them).
 But unfortunately, this is a lot of time expensive too; Using TPUs too it will take more than a day to run the entire code.
 (I took approx 9 mins to test each review with this config. but the result was pretty good).
 
