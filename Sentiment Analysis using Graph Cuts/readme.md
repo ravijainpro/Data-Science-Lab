@@ -28,4 +28,4 @@
 
 -> Only first 6 sentences of each test reviews were used (As they contain enough features for classifying the data) (Also, it significantly reduced testing time by many folds)
 
--> The overall accuracy attained is 
+-> The overall accuracy attained is 0.6834848484848486
