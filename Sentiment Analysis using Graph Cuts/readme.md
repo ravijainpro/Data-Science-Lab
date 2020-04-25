@@ -12,8 +12,8 @@
 
 3.  Explanation:
 
--The ratio of Train vs Test data taken is 80:20.
-(First 800 reviews each of pos and neg type is used for training, the remaining 200 reviews of each type is used for testing)
+-The ratio of Train vs Test data taken is 90:10.
+(First 900 reviews each of pos and neg type is used for training, the remaining 100 reviews of each type is used for testing)
 
 -> The given reviews were pre-processed as follows:
 1. Lower casing the entire sentence.
@@ -22,7 +22,7 @@
 4. Using NLTK library stemming the tokens (part of normalization) (This improves the input data quality)
 5. Using NLTK lemmatization of tokens (part of normalization) (This transforms noisy tokens to clear format and improves model quality)
 
--> Initially, The basic Naive Bayes classifier based on 1 to 3 grams to do the polarity classification. The overall accuracy of this model was 50% (Pretty low).
+-> Initially, The basic Naive Bayes classifier based on 1 to 3 grams to do the polarity classification. The overall accuracy of this model was 59.5%
 
 -> Later, the graph cut model is prepared, which uses the concept of similarities between the given 3 sentences along with NB predictions and finds the min-cut; based on which the classification is done.
 
